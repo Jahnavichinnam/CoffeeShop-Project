@@ -15,7 +15,7 @@ services:
       - coffeeshop-net
 
   backend:
-    image: jahnavichinnam/docker-backend-240003291:latest
+    image: jahnavichinnam/docker-backend-2400032091:latest
     container_name: coffeeshop-backend
     ports:
       - "8080:8080"
@@ -31,7 +31,7 @@ services:
       - coffeeshop-net
 
   frontend:
-    image: jahnavichinnam/docker-frontend-240003291:latest
+    image: jahnavichinnam/docker-frontend-2400032091:latest
     container_name: coffeeshop-frontend
     ports:
       - "3000:80"
